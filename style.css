@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #1d1d1d;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbar {
+    width: 90%;
+    /* border: 2px solid white; */
+    padding: 16px 4px;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first {
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-child h4 {
+    font-size: 22px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 6px;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.nav-child button {
+    padding: 6px;
+    background-color: #1d1d1d;
+    color: white;
+    border: none;
+    margin-right: 4px;
+}
+
+.nav-child .sec-btn {
+    background-color: #2e4c4b;
+    border-radius: 4px;
+}
+
+#main {
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.left-main-child h1{
+    font-size: 65px;
+    width: 75%;
+}
+.left-main-child p {
+    width: 69%;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.left-main-child .main-child-child {
+    margin-top: 20px;
+}
+.main-child-child a{
+    border: 1px solid white;
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+.main-child-child a:first-child {
+    background-color: #2e4c4b;
+    color: #fff;
+}
+svg {
+    stroke: white;
+}
+
+/* section part */
+
+.section {
+    width: 90%;
+    margin: 5%;
+}
+.section strong {
+    color: #3e6767;
+}
+.section h2{
+    width: 800px;
+    font-size: 60px;
+}
+.section p {
+    width: 550px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.section-child {
+    height: auto;
+    background-color: #062C30;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.section-child {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.section-child-child {
+    padding: 10px;
+}
+.section-child-child h4 {
+    font-size: 35px;
+}
+.sections-list {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.sections-list ul {
+    gap: 20px;
+}
+.sections-list ul li{
+    font-size: 20px;
+    padding: 16px;
+    margin: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    background-color: #c1e0ff1a;
+    list-style-type: none;
+}
+.section-child-child a {
+    text-decoration: underline;
+    font-weight: bold;
+    font: 20px;
+}
